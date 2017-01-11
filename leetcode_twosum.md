@@ -1,9 +1,9 @@
-title: LeetCode: Two Sum
+title: LeetCode Two Sum
 date: 2015-01-20 20:24:46
 tags: leetcode
 ---
 
-#Description
+# Description
 Given an array of integers, find two numbers such that they add up to a specific target number.
 
 The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
@@ -16,7 +16,7 @@ Output: index1=1, index2=2
 The original problem is [here](https://oj.leetcode.com/problems/two-sum/ "here"):  
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in Java, as below:
 	
 
@@ -48,5 +48,5 @@ I solve this problem in Java, as below:
 	    }
 	}
 
-#Note
+# Note
 One more 'simple' solution is just traversal the array in two nests, but it will take about $O(N^2)$, which exceeds the time. So another way is using Hash(or HashMap in java), keep the difference value between target and number, then you can get it without costing many time. This way just take about $O(N)$.

@@ -1,9 +1,9 @@
-title: LeetCode: Excel Sheet Column Number
+title: LeetCode Excel Sheet Column Number
 date: 2015-04-05 21:13:49
 tags: leetcode
 ---
 
-#Description
+# Description
 Related to question Excel Sheet Column Title
 
 Given a column title as appear in an Excel sheet, return its corresponding column number.
@@ -24,7 +24,7 @@ My code is [here](https://github.com/shuaijiang/LeetCode/blob/master/ExcelSheetC
 
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	/*
@@ -62,5 +62,5 @@ I solve this problem in C++, as below:
 		system("pause");
 	}
 
-#Note
+# Note
 This problem is similar to conver  binary to decimal.

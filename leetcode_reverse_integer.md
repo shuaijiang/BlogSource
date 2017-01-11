@@ -1,9 +1,9 @@
-title: Leetcode: Reverse Integer 
+title: LeetCode Reverse Integer 
 date: 2015-03-15 20:37:46
 tags: leetcode
 ---
 
-#Description
+# Description
 Reverse digits of an integer.
 
 Example1: x = 123, return 321
@@ -12,7 +12,7 @@ Example2: x = -123, return -321
 The original problem is [here](https://leetcode.com/problems/reverse-integer/  "here"):  
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in Python, as below:
 	
 	class Solution:
@@ -38,5 +38,5 @@ I solve this problem in Python, as below:
 	            y = 0
 	        return y
 
-#Note
+# Note
 There maybe only one problem should be noted is "overflow". The integer is 32-bit number, we should ensure the result is not beyond the scope -2147483648 ~ 2147483647. If so, the result should be zero.

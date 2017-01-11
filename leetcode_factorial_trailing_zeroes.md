@@ -1,8 +1,8 @@
-title: LeetCode: Factorial Trailing Zeroes
+title: LeetCode Factorial Trailing Zeroes
 date: 2015-03-30 23:10:04
 tags: leetcode
 ---
-#Description
+# Description
 Given an integer n, return the number of trailing zeroes in n!.
 
 Note: Your solution should be in logarithmic time complexity.
@@ -12,7 +12,7 @@ The original problem is [here](https://leetcode.com/problems/factorial-trailing-
 The original code is [here](https://github.com/shuaijiang/LeetCode/blob/master/Factorial_Trailing_Zeroes.cpp "Code").
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 	
 	/*
@@ -66,5 +66,5 @@ I solve this problem in C++, as below:
 		system("pause"); 
 	}
 
-#Note
+# Note
 One thing need to be noted is the time complexity. Because the trailing zeros are produced by 5 * 2, and the number of 5 is more than 2, so we just need point the number of 5. N=|_ 5^j _|, we just need compute the j.

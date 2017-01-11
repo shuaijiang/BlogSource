@@ -1,10 +1,10 @@
-title: LeetCode: Remove Element
+title: LeetCode Remove Element
 date: 2015-04-03 11:22:16
 tags: leetcode
 ---
 
 
-#Description
+# Description
 Given an array and a value, remove all instances of that value in place and return the new length.
 
 The order of elements can be changed. It doesn't matter what you leave beyond the new length.
@@ -14,7 +14,7 @@ The original code is [here](https://github.com/shuaijiang/LeetCode/blob/master/R
 
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	/*
@@ -40,5 +40,5 @@ I solve this problem in C++, as below:
 	};
 
 
-#Note
+# Note
 Just keep patient!

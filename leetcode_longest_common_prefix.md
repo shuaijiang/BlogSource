@@ -1,9 +1,9 @@
-title: LeetCode: Longest Common Prefix
+title: LeetCode Longest Common Prefix
 date: 2015-04-03 14:44:50
 tags: leetcode
 ---
 
-#Description
+# Description
 Write a function to find the longest common prefix string amongst an array of strings.
 
 The original problem is [here](https://leetcode.com/problems/longest-common-prefix/ "Problem").
@@ -11,7 +11,7 @@ The original code is [here](https://github.com/shuaijiang/LeetCode/blob/master/L
 
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	/*
@@ -67,5 +67,5 @@ I solve this problem in C++, as below:
 		} 
 	};
 
-#Note
+# Note
 The method is similar to compute the minimal or maximal value of one integer array. The only different is in this problem the element is string instead of integer. Additionally, we need get the common prefix of two string. 

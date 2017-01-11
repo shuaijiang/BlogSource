@@ -1,9 +1,9 @@
-title: Leetcode: Rotate Array 
+title: LeetCode Rotate Array 
 date: 2015-03-20 14:05:46
 tags: leetcode
 ---
 
-#Description
+# Description
 Rotate an array of n elements to the right by k steps.
 
 For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
@@ -14,7 +14,7 @@ Try to come up as many solutions as you can, there are at least 3 different ways
 The original problem is [here](https://leetcode.com/problems/rotate-array/  "here"):  
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in Python, as below:
 
 	class Solution:
@@ -42,5 +42,5 @@ I solve this problem in Python, as below:
 		#S.rotate(nums,k)
 		#print nums
 
-#Note
+# Note
 One point should be noted is when k is larger than the length of the array, we should compute the modulus of k to the array length.

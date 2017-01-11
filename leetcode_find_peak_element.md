@@ -1,9 +1,9 @@
-title: LeetCode: Find Peak Element
+title: LeetCode Find Peak Element
 date: 2015-03-30 23:11:09
 tags: leetcode
 ---
 
-#Description
+# Description
 A peak element is an element that is greater than its neighbors.
 
 Given an input array where num[i] ≠ num[i+1], find a peak element and return its index.
@@ -19,7 +19,7 @@ The original problem is [here](https://leetcode.com/problems/find-peak-element/ 
 The original code is [here](https://github.com/shuaijiang/LeetCode/blob/master/Find_Peak_Element.cpp "Code").
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	/*
@@ -77,5 +77,5 @@ I solve this problem in C++, as below:
 		cout<<"index="<<index<<endl;
 	}
 
-#Note:
+# Note:
 This problem is easy, the only thing we need to note is the begining and end of the number;

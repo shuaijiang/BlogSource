@@ -1,9 +1,9 @@
-title: LeetCode: Balanced Binary Tree
+title: LeetCode Balanced Binary Tree
 date: 2015-04-01 21:37:25
 tags: leetcode
 ---
 
-#Description
+# Description
 Given a binary tree, determine if it is height-balanced.
 
 For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
@@ -13,7 +13,7 @@ The original problem is [here](https://leetcode.com/problems/balanced-binary-tre
 The original code is [here](https://github.com/shuaijiang/LeetCode/blob/master/BalancedBinaryTree.cpp "Code").
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	/**
@@ -57,5 +57,5 @@ I solve this problem in C++, as below:
 	};
 
 
-#Note
+# Note
 To reduce the time complexity, I put the depth as the function parameter and recursively judge whether the left and right of the tree is the balanced tree and the difference of depth of two subtrees is less or equal to 1.

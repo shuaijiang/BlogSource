@@ -1,9 +1,9 @@
-title: Leetcode: Reverse Bits 
+title: LeetCode Reverse Bits 
 date: 2015-03-22 22:18:25
 tags: leetcode
 ---
 
-#Description
+# Description
 Reverse bits of a given 32 bits unsigned integer.
 
 For example, given input 43261596 (represented in binary as 00000010100101000001111010011100), return 964176192 (represented in binary as 00111001011110000010100101000000).
@@ -11,7 +11,7 @@ For example, given input 43261596 (represented in binary as 00000010100101000001
 The original problem is [here](https://leetcode.com/problems/reverse-bits/  "here"):  
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in Python, as below:
 
 	class Solution:
@@ -46,5 +46,5 @@ I solve this problem in Python, as below:
 	#S = Solution()
 	#print S.reverseBits(n)
 
-#Note
+# Note
 This problem can be parted as two parts: one is integer2binary and the other is binary2integer. Then it is easy to solve this problem.

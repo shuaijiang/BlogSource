@@ -1,9 +1,9 @@
-title: LeetCode: Swap Nodes in Pairs
+title: LeetCode Swap Nodes in Pairs
 date: 2015-04-04 23:31:29
 tags: leetcode
 ---
 
-#Description
+# Description
 Given a linked list, swap every two adjacent nodes and return its head.
 
 For example,
@@ -17,7 +17,7 @@ My code is [here](https://github.com/shuaijiang/LeetCode/blob/master/SwapNodesIn
 
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	/*
@@ -73,7 +73,7 @@ I solve this problem in C++, as below:
 	};
 
 
-#Note
+# Note
 
 1. We must swap the nodes instead of values.
 2. When swap two nodes, we must assign the next value of the last node to  the current node.

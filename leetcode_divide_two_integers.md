@@ -1,9 +1,9 @@
-title: LeetCode: Divide Two Integers
+title: LeetCode Divide Two Integers
 date: 2015-04-03 11:02:58
 tags: leetcode
 ---
 
-#Description
+# Description
 Divide two integers without using multiplication, division and mod operator.
 
 If it is overflow, return MAX_INT.
@@ -13,7 +13,7 @@ The original code is [here](https://github.com/shuaijiang/LeetCode/blob/master/D
 
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 	
 	#include<iostream>
@@ -92,6 +92,6 @@ I solve this problem in C++, as below:
 		//cout<<"dividend="<<dividend<<endl;
 	}
 
-#Note
+# Note
 At first, we should judge whether the dividend and divisor are Max Value or Min Value. If divisor is zero, directly return the Max value.
 Because we can't use multiplication, division and mod operator, so we use bit and minus operator. 

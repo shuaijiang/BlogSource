@@ -1,9 +1,9 @@
-title: LeetCode: Compare Version Numbers
+title: LeetCode Compare Version Numbers
 date: 2015-03-30 23:10:47
 tags: leetcode
 ---
 
-#Description
+# Description
 Compare two version numbers version1 and version2.
 If version1 > version2 return 1, if version1 < version2 return -1, otherwise return 0.
 
@@ -20,7 +20,7 @@ The original code is [here](https://github.com/shuaijiang/LeetCode/blob/master/F
 
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	/*
@@ -135,5 +135,5 @@ I solve this problem in C++, as below:
 		//system("pause");
 	}
 
-#Note
+# Note
 Many situations should be considered, such as there are more than one ".", the two versions have differet number of subversion and so on.

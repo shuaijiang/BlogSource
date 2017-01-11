@@ -1,9 +1,9 @@
-title: LeetCode: Add Two Numbers
+title: LeetCode Add Two Numbers
 date: 2015-01-24 21:21:18
 tags: leetcode
 ---
 
-#Description
+# Description
 You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -12,7 +12,7 @@ Output: 7 -> 0 -> 8
 The original problem is [here](https://oj.leetcode.com/problems/add-two-numbers/ "here"):  
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in Java, as below:
 	
 
@@ -81,5 +81,5 @@ I solve this problem in Java, as below:
 
 
 
-#Note
+# Note
 Because of the two numbers are stored in two Linked lists, the addition is computed for each digit, so don't foget the carry(进位). Additionly, the two linked lists may have different lengths!

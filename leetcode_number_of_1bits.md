@@ -1,10 +1,10 @@
-title: LeetCode: Number of 1 Bits
+title: LeetCode Number of 1 Bits
 date: 2015-04-03 22:11:32
 tags: leetcode
 ---
 
 
-#Description
+# Description
 Write a function that takes an unsigned integer and returns the number of ’1' bits it has (also known as the Hamming weight).
 
 For example, the 32-bit integer ’11' has binary representation 00000000000000000000000000001011, so the function should return 3.
@@ -15,7 +15,7 @@ My code is [here](https://github.com/shuaijiang/LeetCode/blob/master/Numberof1Bi
 
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	
@@ -42,5 +42,5 @@ I solve this problem in C++, as below:
 	    }
 	};
 
-#Note
+# Note
 It is similar to convert decimal to binary.

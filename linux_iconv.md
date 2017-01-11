@@ -2,10 +2,10 @@ title: Linux系统环境下使用iconv实现文件编码格式的转换
 date: 2015-03-31 22:30:25
 tags: Linux
 ---
-#简介
+# 简介
 Linux系统环境下，有很多处理文件编码格式的方法，比如vim中，使用“set fileencoding=utf-8”可以实现编码格式到UTF8格式的转换。但是个人觉得iconv更加好用些，下面就介绍下如何使用。
 
-#iconv使用方法
+# iconv使用方法
 下面是iconv的使用方法，比较重要的参数就是 “-f”：给出输入文件的编码格式，比如GBK； “-t”：指定输出文件的编码格式； “-o”：指定输出文件的文件名。
 <!--more-->
 
@@ -36,7 +36,7 @@ Linux系统环境下，有很多处理文件编码格式的方法，比如vim中
 	<http://www.gnu.org/software/libc/bugs.html>.
 
 
-#Examples
+# Examples
 如何确定文件的格式呢，使用“file”来查看文件的编码格式，比如：
 	file train.data
 

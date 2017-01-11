@@ -1,14 +1,14 @@
-title: LeetCode: Longest Substring Without Repeating Characters
+title: LeetCode Longest Substring Without Repeating Characters
 date: 2015-01-25 18:29:50
 tags: leetcode
 ---
-#Description
+# Description
 Given a string, find the length of the longest substring without repeating characters. For example, the longest substring without repeating letters for "abcabcbb" is "abc", which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.
 
 The original problem is [here](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/ "here"):  
 <!--more-->
 
-#My Solution
+# My Solution
 	import java.util.HashMap;
 	public class Solution {
     	public int lengthOfLongestSubstring(String s) {
@@ -46,5 +46,5 @@ The original problem is [here](https://oj.leetcode.com/problems/longest-substrin
 	    }
 	}
 
-#Note
+# Note
 In my solution, I traversal the string once. During the traversal, we can find each substring and the length of it. Finally, we can get maximum of the lengths. 

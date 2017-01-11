@@ -1,9 +1,9 @@
-title: Leetcode: Largest Number 
+title: LeetCode Largest Number 
 date: 2015-03-29 18:34:55
 tags: leetcode
 ---
 
-#Description
+# Description
 Given a list of non negative integers, arrange them such that they form the largest number.
 
 For example, given [3, 30, 34, 5, 9], the largest formed number is 9534330.
@@ -13,7 +13,7 @@ Note: The result may be very large, so you need to return a string instead of an
 The original problem is [here](https://leetcode.com/problems/largest-number/ "here"):  
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in C++, as below:
 
 	#include<iostream>
@@ -151,5 +151,5 @@ I solve this problem in C++, as below:
 	}
 
 
-#Note
+# Note
 To find the largest number, we just sort the numbers according to descending order and then join them together. But one important thing need to be noted is how to select the larger number of any two numbers. We can't compare the two numbers as usual,  os we need to compare them after join them together at different order.

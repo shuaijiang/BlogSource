@@ -1,9 +1,9 @@
-title: Leetcode: ZigZag Conversion
+title: LeetCode ZigZag Conversion
 date: 2015-03-15 08:48:58
 tags: leetcode
 ---
 
-#Description
+# Description
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
 P   A   H   N
@@ -18,7 +18,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 The original problem is [here](https://leetcode.com/problems/zigzag-conversion/ "here"):  
 <!--more-->
 
-#My Solution
+# My Solution
 I solve this problem in Python, as below:
 	
 
@@ -52,7 +52,7 @@ I solve this problem in Python, as below:
 	            new_s += new_str[j]
 	        return new_s
 
-#Note
+# Note
 First of all, you should know what is "ZigZag". In this problem, we can consider it as one person runs between two "point": run from start to end, and then run back.
 
 Secondly, when we convert the string to "ZigZag", how to deal the begin and end of each column should under the consider. 
